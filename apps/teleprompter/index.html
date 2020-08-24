@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Teleprompter</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<article>
+  <section id="teleprompter">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus vestibulum nulla convallis faucibus. Sed turpis velit, malesuada ac ante id, convallis auctor lacus. Sed lobortis vulputate fermentum. Etiam tempus blandit neque ac accumsan. Phasellus mollis magna id interdum rutrum. Donec rutrum sem eu odio porttitor pharetra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla ante lectus, vulputate a tristique non, dictum eget eros. Mauris auctor ex massa, nec facilisis magna cursus id. Ut quis felis erat. Ut eget fringilla ex. Nullam ut tellus diam. Integer sed ullamcorper lorem. Duis id dui justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+  </section>
+</article>
+<footer>
+  <button onclick="switch_rev();"> <i class="material-icons" id="rev">fast_rewind</i></button>
+  <button onclick="switch_stop();"><i class="material-icons" id="stop">play_arrow</i></button>
+  <button onclick="restart();"><i id="rest" class="material-icons">replay</i></button>
+  <button onclick="color();"><i class="material-icons" id="colo">format_color_text</i></button>
+  <button onclick="edit_text();" id="edit_b"><i class="material-icons" id="edit_i">edit</i></button>
+  <button onclick="switch_range();"><i class="material-icons" id="shut">shutter_speed</i></button>
+  
+  <input id="ran" type="range" min="1" max="5" value="1" class="slider" id="myRange" onchange="set_speed()">
+  
+  <button onclick="switch_font();"><i class="material-icons" id="form">format_size</i></button>
+  
+  <input id="font" type="range" min="5" max="9" value="7" class="slider" id="myRange" onchange="set_font()">
+  
+  <button onclick="switch_slow();"><i class="material-icons" id="slow_m">timer</i></button>
+  
+  <button onclick="switch_hide();" class="nohide"><i id="hide" class="material-icons">visibility_off</i></button>
+</footer>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script src='https://static.tumblr.com/maopbtg/oimmiw86r/jquery.autosize-min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

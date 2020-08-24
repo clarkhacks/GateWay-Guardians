@@ -1,0 +1,21 @@
+---
+permalink: /facebook
+---
+<!DOCTYPE html>
+<html data-destination="https://www.facebook.com/GateWayGuards">
+  <head>
+    <noscript><meta id="redirect" http-equiv="refresh" content="0; url=https://www.facebook.com/GateWayGuards"></noscript>
+  </head>
+
+  <body>
+    <img src="https://beacon-analytics-forked.glitch.me/counter.png?fallback=FaceBook%20Link&color=black" alt="" style="vertical-align: bottom;" aria-hidden="true">
+    If you are not redirected click <a id="redirect_link" href="https://www.facebook.com/GateWayGuards">here</a>.
+    <!-- Redirect in JavaScript with meta refresh fallback above in noscript -->
+    <script>
+    var destination = document.documentElement.getAttribute('data-destination');
+    window.location.href = destination + (window.location.search || '') + (window.location.hash || '');
+    var a = document.getElementById('redirect_link');
+    a.href = destination + (window.location.search || '') + (window.location.hash || '');
+    </script>
+  </body>
+</html>

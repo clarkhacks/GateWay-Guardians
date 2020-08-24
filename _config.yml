@@ -1,0 +1,15 @@
+# User config
+author: "GateWay Guardians"
+tagline: "Meet The Team!"
+description: "The GateWay Guardians is a group of recruiters who are devoted to helping you get factual information and any help you may need."
+keywords: "GateWay, Guardians, National Guard, Recruiters, Army"
+contact: "https://m.me/gatewayguards/"
+facebook: "https://www.linkedin.com/"
+permalink: ":slug"
+
+# Site config
+baseurl: ""
+highlighter: rouge
+sass:
+  sass_dir: assets/scss
+  style: compressed
