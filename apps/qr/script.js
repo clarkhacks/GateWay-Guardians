@@ -1,4 +1,7 @@
 function generateLink(){
+
+  $('#qr').empty();
+  $('#link').empty();
   var longUrl = $('#longLink').val();
   if (!/^https?:\/\//i.test(longUrl)) {
     longUrl = 'http://' + longUrl;
