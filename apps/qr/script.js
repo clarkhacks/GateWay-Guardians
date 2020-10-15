@@ -13,6 +13,8 @@ $('<a>',{
     text: "https://" + data.shortUrl,
     href: "https://" + data.shortUrl,
 }).appendTo('#link');
+
+
 });
   
 }
