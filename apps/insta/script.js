@@ -16,6 +16,8 @@ getData("sfc_super_mario", 0)
 getData("sgt_branz", 2235)
 //womack
 getData("goguardorgohome", 3253)
+//weckmann
+getData("spc_weckmann", 728)
 
 function getData(nco, oldCount){
   $.getJSON("https://www.instagram.com/" + nco + "/?__a=1", function(result){
