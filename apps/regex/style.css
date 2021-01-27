@@ -1,0 +1,65 @@
+html {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  line-height: 1.4;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: Poppins, freight-text-pro, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+textarea {
+  text-align: center;
+  width: 100%;
+  display: block;
+  max-width: 20rem;
+}
+textarea.center {
+  width: 80%;
+  margin: auto;
+}
+
+div.page-container {
+  text-align: center;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  max-width: 800px;
+}
+div.page-container div.entry-content {
+  max-width: 80rem;
+  margin: 0px auto;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.5;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+div.page-container a {
+  color: #57ad68;
+  text-decoration: none;
+  line-height: 35px;
+  text-decoration: none;
+  letter-spacing: -0.02em;
+}
+div.page-container a:hover {
+  text-decoration: none;
+}
+
+button {
+  appearance: none;
+  outline: 0;
+  background-color: #a3ccae;
+  border: 0;
+  padding: 10px 15px;
+  border-radius: 5px;
+  width: 150px;
+  cursor: pointer;
+  font-size: 18px;
+}
